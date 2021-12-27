@@ -18,7 +18,7 @@ During the refactoring of the code we were able to restructure how the entire pr
                 End If
 
 
-By analyzing an array in the refactoring we are able to have our code scan each line of the data only once. During that singular check of the line of stock data we are able to not only add that lines trading volume to an arraym regardless of the ticker symbol, but we are also able to run nested if statements that will check that individual line of data to identify if it is a starting or ending value and add it to the appropriate array, linked to it's ticker symbol if so. The code from above has been updated to reflect this change in approach. 
+By analyzing an array in the refactoring we are able to have our code scan each line of the data only once. During that singular check of the line of stock data we are able to not only add that lines trading volume to an array regardless of the ticker symbol, but we are also able to run nested if statements that will check that individual line of data to identify if it is a starting or ending value and add it to the appropriate array, linked to it's ticker symbol if so. The code from above has been updated to reflect this change in approach. 
 
      '3a) Increase volume for current ticker
                 tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
