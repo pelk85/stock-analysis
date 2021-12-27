@@ -13,7 +13,7 @@ During the refactoring of the code we were able to restructure how the entire pr
 This process allows us to scan each row of data only once while obtaining all the information we need. Originally our code did work but it required scanning all 3,000+ lines of code for every ticker symbol. That means that we were looking at the same data 13 times instead of once. The difference is seen in the timer results. 
 
 The below image shows our original run time for data from 2018 
-![Original Runtime for 2018 data ](vba_originalruntime.png = 150x150)
+![Original Runtime for 2018 data ](vba_originalruntime.png)
 
 Now with the refactored code we are able to see that our runtime has improved almost 5x. 
 ![Runtime for 2018 after refactoring ](VBA_Challenge_2018.png) 
