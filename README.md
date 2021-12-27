@@ -31,12 +31,12 @@ This process allows us to scan each row of data only once while obtaining all th
 The below image shows our original run time for data from 2018 
 
 
-![Original Runtime for 2018 data ](.resources/vba_originalruntime.png)
+![Original Runtime for 2018 data ](resources/vba_originalruntime.png)
 
 Now with the refactored code we are able to see that our runtime has improved over 6x, down to 0.0625 seconds. 
 
 
-![Runtime for 2018 after refactoring ](.resources/VBA_Challenge_2018_small.png) 
+![Runtime for 2018 after refactoring ](resources/VBA_Challenge_2018_small.png) 
 
 
 
