@@ -12,7 +12,7 @@ During the refactoring of the code we were able to restructure how the entire pr
 
 This process allows us to scan each row of data only once while obtaining all the information we need. Originally our code did work but it required scanning all 3,000+ lines of code for every ticker symbol. That means that we were looking at the same data 13 times instead of once. The difference is seen in the timer results. 
 
-![Original Runtime](./VBA_originalruntime.png)
+![Original Runtime](vba_originalruntime.png)
 
 
 
