@@ -2,7 +2,7 @@
 
 ## Overview of Project & Purpose
 
-The purpose of this project was two-fold. First there was a functional purpose in teaching a more advanced use of index(s) and array(s) in order to store data and move through lists quicker. The second purpose was to demonstrate that code can be written in many different fashions to accomplish the same objective. Did the original subroutine accomplish the goals of the analysis? Absolutely. However by applying different commands and thinking about the way we are not only analyzing but storying the data we are working on, we can see vast improvements in efficiencies. 
+The purpose of this project was two-fold. First there was a functional purpose in teaching a more advanced use of index(s) and array(s) in order to store data and move through lists quicker. The second purpose was to demonstrate that code can be written in many different fashions to accomplish the same objective. Did the original subroutine accomplish the goals of the analysis? Absolutely. However by applying different commands and thinking about the way we are not only analyzing but storing the data we are working on, we can see vast improvements in efficiencies. 
 
 ## Results
 
