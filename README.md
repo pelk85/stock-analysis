@@ -8,7 +8,7 @@ The purpose of this project was two-fold. First there was a functional purpose i
 
 As mentioned above, the original subroutine accomplished the goal of scanning the stock data for a given year and outputting formatted results. According to timer testing this original macro was able to scan the 2018 data in 0.3867188 seconds. While this is a short amount of time, this is also a small data set. If we were to examine more data points, or a larger list of ticker symbols this code could take a long amount of time to complete. 
 
-During the refactoring of the code we were able to restructure how the entire process of analyzing the data was handled. In the original subroutine we went through individual ticker symbols one by one while also scanning the data line by line in order to find matches and add their trading volume to the total. The below snippet shows just a portion of the original subroutine which looked explicitely for the selected ticker symbol and moved on if it was not found. 
+During the refactoring of the code we were able to restructure how the entire process of analyzing how the data was handled. In the original subroutine we went through individual ticker symbols one by one while also scanning the data line by line in order to find matches and add their trading volume to the total. The below snippet shows just a portion of the original subroutine which looked explicitely for the selected ticker symbol and moved on if it was not found. 
  
                 If Cells(j, 1).Value = ticker Then
 
